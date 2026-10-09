@@ -19,7 +19,9 @@ img{max-width:100%}
 .main-nav{display:flex;align-items:center;gap:28px;color:#d3cbc2;font-size:.91rem;font-weight:650}
 .main-nav a:hover,.main-nav a:focus-visible,.back-link:hover,.text-link:hover{color:var(--orange-light)}
 .site-footer{border-top:1px solid var(--line);margin-top:90px;padding:25px 0;color:var(--muted);font-size:.8rem}
-.footer-inner{display:flex;justify-content:space-between;gap:20px}.footer-inner>span:first-child{font-weight:800;color:var(--orange)}
+.footer-inner{display:flex;justify-content:space-between;align-items:center;gap:20px}.footer-inner>span:first-child{font-weight:800;color:var(--orange)}
+.footer-address{display:flex;align-items:center;gap:9px;font-style:normal}
+.footer-address-icon{width:18px;height:18px;flex:none;color:var(--orange)}
 .catalog{padding-top:42px;padding-bottom:18px}
 .page-heading{display:flex;align-items:end;justify-content:space-between;gap:16px;margin-bottom:24px}
 .page-heading h1{font-size:clamp(1.75rem,3vw,2.35rem);line-height:1.1;letter-spacing:-.026em;margin:0 0 10px;font-weight:850}
